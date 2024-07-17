@@ -1,0 +1,13 @@
+
+@charset "UTF-8";
+
+/*VERSÃO Mobile Firts- Todas configurações principais*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
