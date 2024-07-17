@@ -9,15 +9,16 @@
 }
 
 :root { /* Definir Paleta de cores*/  /**/
-    --cor01:#FFB7D9 ;
-    --cor02:#ECE4B7 ;
-    --cor03:#FFFFFf ;
-    --cor04:#F2F2F2;
-    --cor05:#f7cac9;
-    --cor06:#b1ca94;
-    --cor07:#0d0e0d;
-    --cor08:#82946d;
-    --cor09:#303330;
+    --cor01: #C65D40;
+    --cor02: #F8BBD0;
+    --cor03: #f183aa;
+    --cor04: #FFD700;
+    --cor05: #d6f121;
+    --cor06: #B6D7A8;
+    --cor07: #4f6e4c;
+    --cor08: #243323;
+    --cor09: #0c110c;
+    --cor10: #F2F2F2;
 
     
 
@@ -26,22 +27,23 @@
     --font-especial: 
 }
 body {
-    font-family: var(--font-destaque);
-    background-color: var(--cor06); /*Fundo principal*/
-    color: var(--cor07);
+    font-family: ;
+    background-color: ; /*Fundo principal*/
+    color: ;
+    border-radius: 15px;
 
 }
 
 header{
-    background-color: var(--cor01);
+    background-color: ;
     display: flex; /*Ativar Flexbox*/
     align-items: center; /*Alinhar verticalmente*/
     padding: 15px ;
 }
 header > h1 {
-    color: var(--cor03);
+    color: ;
     font-size: 2.2em;
-    text-shadow: 0px 1px 3px var(--cor09);
+    text-shadow:;
     flex: 2;/*h1 preenche espaço restante*/
 }
 
@@ -53,42 +55,43 @@ header > img {
 }
 
 nav{
-    background-image: url(img/Canva-flores-150.png);
+    background-image: url();
     background-repeat: repeat-x;
     height: 40px;
     padding: 15px;
-    box-shadow: 0px 8px 5px var(--cor07);
+    box-shadow: ;
     margin: auto;
+    
     display: flex;
     gap: 25px;
     justify-content: center;/*Centralizar na horizontal*/
     }
 nav > a{
-    color: var(--cor03);
+    color: ;
     text-decoration: none;
     padding: 15px ;
     border-radius: 10px;
-    background-color: var(--cor06);
+    background-color: ;
     align-items: center;
-    border: 2px solid var(--cor06);
+    border: 2px solid ;
     transition: color 0.3s ease ;
    
 }
 nav > a:hover /*Estilo ao passar o mouse*/{
-    background-color: var(--cor09);/*Cor do fundo*/
-    color: var(--cor02);/*Cor de texto*/
+    background-color: ;/*Cor do fundo*/
+    color: ;/*Cor de texto*/
     transform: scale(1.1);/*Aumenta o tamanho em 10%*/
-    border-color: var(--cor06);
+    border-color: ;
 }
 
 
 main {
-    background-color: var(--cor01);
+    background-color: ;
 }
 
 footer{
-    background-color: var(--cor07);
-    color: var(--cor03);
+    background-color: ;
+    color: ;
     text-align: center;
 }
 
